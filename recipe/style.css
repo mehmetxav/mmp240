@@ -1,3 +1,16 @@
+@import url ('https://fonts.googleapis.com/css2?family=Noto+Sans+Meroitic&display=swap'); 
+
 h1 {
     text-align: center;
+    font-family: 'Noto Sans Meroitic', sans-serif;
 }
+
+body {background-color:
+    beige;
+    
+}
+
+h2,h3,h4,h5,p,li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
