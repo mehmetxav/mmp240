@@ -1,16 +1,18 @@
-@import url ('https://fonts.googleapis.com/css2?family=Noto+Sans+Meroitic&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
 
 h1 {
     text-align: center;
-    font-family: 'Noto Sans Meroitic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 body {background-color:
     beige;
-    
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+
 }
 
-h2,h3,h4,h5,p,li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
