@@ -3,16 +3,38 @@
 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-
+    line-height:  2rem;
 }
 
 body {background-color:
     beige;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    line-height: 28px;
-
+    font-size:1rem; 
+    line-height:1.3rem;
 }
 
+li {
+    margin-bottom: 1.5rem;
+}
 
+div#wrapper{
+    max-width: 1200px;
+    background-color: brown;
+    border-radius:20px;
+    padding: 2rem;
 
+    /* centering the div by forcing left and right margins to be the same*/
+
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 3rem;
+}
+
+img {
+    width: 50%;
+}
+
+div.image {
+    text-align:center;
+    
+}
