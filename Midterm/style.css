@@ -1,0 +1,19 @@
+#wrapper { 
+    max-width: 1400px;
+    background-color: rgb(106, 99,176, 0.5) ;
+}
+
+header {
+    background-color: black;
+    background-image: url("images/") ;
+    padding: 2em;
+    background-repeat: no-repeat;
+    background-position:  top right;
+
+}
+
+
+.p1 {
+    width: 30% ;
+    color: white ;
+}
