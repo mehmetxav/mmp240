@@ -3,13 +3,9 @@
     background-color: rgb(106, 99,176, 0.5) ;
 }
 
-header {
-    background-color: black;
-    background-image: url("images/") ;
-    padding: 2em;
-    background-repeat: no-repeat;
-    background-position:  top right;
-
+header { 
+    background: 
+    linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 96%, rgba(0,0,0,0.4654236694677871) 100% , url("images/twd3.jpg") top right no-repeat;
 }
 
 
