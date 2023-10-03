@@ -4,12 +4,37 @@
 }
 
 header { 
-    background: 
-    linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 96%, rgba(0,0,0,0.4654236694677871) 100% , url("images/twd3.jpg") top right no-repeat;
+    padding: 2em;
+   background: 
+    linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), url(images/twd3.jpg) no-repeat top right/70% ;
 }
 
 
 .p1 {
     width: 30% ;
     color: white ;
+    margin-top:0 ;
 }
+
+h1 img{
+    width: 300px;
+
+    
+}
+
+.button{
+    text-align: center;
+    width: 3em;
+    display: block;
+    background-color: darkred;
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+    text-decoration: none;
+
+}
+
+h1{
+    margin-bottom: 0;
+}
+
