@@ -43,12 +43,17 @@ h1{
 nav li{
     display: inline ;
     margin-right: 2em;
+    border-right: solid 1px white;
+    padding-right: 2em;
 }
 
 nav {
     background-color: grey;
     padding: 0.1em 0; /* first value is for top and bottom and second value is for left and right*/
-
 }
 
+
+nav a {
+    color: white;
+}
 
