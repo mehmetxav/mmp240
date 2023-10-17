@@ -1,6 +1,6 @@
 #wrapper { 
     max-width: 1400px;
-    background-color: rgb(106, 99,176, 0.5) ;
+    overflow:auto;
 }
 
 header { 
@@ -46,6 +46,10 @@ nav li{
     padding-right: 2em;
 }
 
+nav li:last-child{
+    border:none;
+}
+
 nav {
     background-color: grey;
     padding: 0.1em 0; /* first value is for top and bottom and second value is for left and right*/
@@ -54,5 +58,20 @@ nav {
 
 nav a {
     color: white;
+}
+
+.col { 
+    float:left ;
+    width: 49%;
+    margin-right: 2%;
+}   
+
+.col:last-child{
+    margin-right:0;
+
+}
+
+footer{ /* making sure nothing floats next to the footer */
+    clear:both;
 }
 
