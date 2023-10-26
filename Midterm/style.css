@@ -75,3 +75,22 @@ footer{ /* making sure nothing floats next to the footer */
     clear:both;
 }
 
+
+/* Episodes page */
+
+.episodes{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card {
+    flex: 0 0 30%;
+    margin-right: 2em;
+    border:solid 1px white;
+}
+
+.card img{
+    width: 100%;
+}
