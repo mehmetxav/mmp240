@@ -1,5 +1,4 @@
 #wrapper { 
-    max-width: 1400px;
     overflow:auto;
 }
 
@@ -93,4 +92,14 @@ footer{ /* making sure nothing floats next to the footer */
 
 .card img{
     width: 100%;
+}
+
+main, nav ul, .banner, footer{
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.p2 {
+    height: 2em;
 }
