@@ -1,3 +1,6 @@
+
+/*Banner part of the wewbsitee */
+
 #wrapper { 
     overflow:auto;
 }
@@ -6,8 +9,10 @@ header {
     padding: 2em;
     background: 
     linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), url(images/twd3.jpg) no-repeat top right/70% ;
+
     
 }
+
 
 
 .p1 {
@@ -113,3 +118,4 @@ h2 {
 .p2 {
     font-size: 1.5em;
 }
+
