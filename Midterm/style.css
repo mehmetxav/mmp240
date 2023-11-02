@@ -3,6 +3,7 @@
 
 #wrapper { 
     overflow:auto;
+
 }
 
 header { 
@@ -119,3 +120,24 @@ h2 {
     font-size: 1.5em;
 }
 
+@media (max-width:846px){
+    header{
+        background-size: 100%;
+        background-position: top left;
+    }
+}
+
+@media (max-width:500px) {
+    .episodes {
+        flex-direction: column;
+    }
+
+    .p1 {
+        width: 70% }
+
+    header {
+        padding-top: 5em;
+        background: 
+    linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), url(images/twd3.jpg) no-repeat top right/100% ;
+    }
+}
