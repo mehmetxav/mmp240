@@ -17,3 +17,90 @@ header{
     float:right;
 
 }
+
+.banner {
+    padding:2em;
+    padding-top:3em;
+    height:200px;
+    background: url();
+    background-size:cover;
+}
+
+.dropdown{
+    display: none;
+}
+
+.dropdown a{
+    background-color:aqua;
+}
+
+.program-select{
+    margin-bottom:1em;
+}
+
+.programNav a{
+    display:block;
+    padding:10px;
+    border:solid 1px green
+}
+
+.programNav li:hover .dropdown{
+    display:block;
+}
+
+.btn{
+    display: block;
+    width:100px;
+    background-color: rgb(151, 13, 13);
+    padding:0.5em;
+    text-transform: uppdercase;
+    color:white;
+    margin-top:1em;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:3px 3px 3px black;
+}
+
+section{
+    margin:2em 0;
+}
+
+article{
+    margin:1em 0;
+}
+
+article img{
+    width: 100%;
+}
+
+p{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+h2, h3 strong{
+font-weight: bold;
+}
+
+.date{
+
+}
+
+a{
+    color:aqua;
+}
+
+h1{
+    float: left;
+}
+
+h2{
+    text-transform: uppercase;
+    color:orange;
+}
+
+body{
+    margin: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
