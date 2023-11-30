@@ -111,6 +111,22 @@ body{
         grid-template-columns: 2fr 1fr;
         grid-gap; 1em;
     }
+
+    .flex-container{
+        display:flex;
+        
+    }
+
+
+    .program-select{
+        width:33%;
+        position:relative;
+    }
+
+    .dropdown{
+        position:absolute;
+        width:100%;
+    }
 }
 
 .paragraph{
@@ -123,4 +139,8 @@ body{
 article h4{
     margin-top: 1em;
     margin-bottom:1em;
+}
+
+.program-select{
+
 }
