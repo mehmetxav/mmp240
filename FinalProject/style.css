@@ -10,12 +10,20 @@ header{
 .topNav nav{
     display: none;
     clear: right;
+    border:solid 1px white;
+    padding:0.5em;
+    text-align:center;
     
 }
 
 #menu id{
     float:right;
 
+}
+
+.topNav nav li{
+    margin-bottom: 1em;
+    border-bottom: solid 1px white;
 }
 
 .banner {
@@ -78,7 +86,7 @@ p{
     margin-top: 1em;
 }
 
-h2, h3 strong{
+h1, h2, h3 strong{
 font-weight: bold;
 }
 
@@ -106,6 +114,7 @@ body{
 }
 
 @media (min-width:768px){
+    
     main{
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -127,6 +136,26 @@ body{
         position:absolute;
         width:100%;
     }
+
+    .topNav nav{
+        border:none;
+        float:right;
+        margin-right:0;
+    }
+
+    .topNav ul, .topNav li,topNav form{
+            display:inline;
+            margin-left:1em;
+    }
+
+    .topNav nav{
+        display:block;
+    }
+
+    #menu{
+        display:none;
+    }
+    
 }
 
 .paragraph{
@@ -144,3 +173,4 @@ article h4{
 .program-select{
 
 }
+
