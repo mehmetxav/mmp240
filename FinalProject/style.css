@@ -155,7 +155,40 @@ body{
     #menu{
         display:none;
     }
+
+    main{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap:1em;
+    }
+
+    .flex-container{
+        display:flex;
+    }
+
+    .program-page{
+        display:block
+    }
     
+    .programs{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:1em;
+    }
+
+    .program-card{
+        border:solid 1px white;
+        box-shadow: 3px;
+    }
+
+    .program-card img{
+        width:100%;
+    }
+
+    .program-card p, .program-card h3, .program-card h4{
+        margin:1em;
+    }
+
 }
 
 .paragraph{
