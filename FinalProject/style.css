@@ -61,7 +61,7 @@ header{
     width:100px;
     background-color: rgb(151, 13, 13);
     padding:0.5em;
-    text-transform: uppdercase;
+    text-transform: uppercase;
     color:white;
     margin-top:1em;
     text-align:center;
@@ -90,9 +90,7 @@ h1, h2, h3 strong{
 font-weight: bold;
 }
 
-.date{
 
-}
 
 a{
     color:black;
@@ -113,12 +111,14 @@ body{
     line-height: 1.4em;
 }
 
+
+
 @media (min-width:768px){
     
     main{
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-gap; 1em;
+        grid-gap: 1em;
     }
 
     .flex-container{
@@ -167,7 +167,7 @@ body{
     }
 
     .program-page{
-        display:block
+        display:block;
     }
     
     .programs{
@@ -178,11 +178,12 @@ body{
 
     .program-card{
         border:solid 1px white;
-        box-shadow: 3px;
+        box-shadow: 1px 1px 1px 1px;
     }
 
     .program-card img{
         width:100%;
+        height: 30%;
     }
 
     .program-card p, .program-card h3, .program-card h4{
@@ -201,8 +202,23 @@ article h4{
     margin-top: 1em;
     margin-bottom:1em;
 }
+/* Responsive */
 
-.program-select{
+.card {
+    width:100%;
+    border:solid 1px white;
+    box-shadow:1px 1px 1px 1px;
+}
+
+.card img{
+    width:100%;
+}
+.program{
+    display: grid;
+    grid-gap:1em;
 
 }
 
+.card p, .card h3, .card h4{
+    margin:1em;
+}
