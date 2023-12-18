@@ -173,17 +173,22 @@ body{
 
     .program-page{
         display:block;
+
     }
     
     .programs{
-        display:grid;
-        grid-template-columns:  auto auto auto;
-        grid-gap:1em;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        
+        
+
     }
 
     .program-card{
         border: 2px solid red;
         border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.8);
     }
 
     .program-card img{
@@ -223,7 +228,6 @@ article h4{
     display: grid;
     grid-gap:1em;
     border-style:solid;
-
 }
 
 .card p, .card h3, .card h4{
