@@ -5,6 +5,8 @@ header{
 
 #wrapper{
     max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .topNav nav{
@@ -98,6 +100,8 @@ a{
 
 h1{
     float: left;
+  
+
 }
 
 h2{
@@ -109,6 +113,7 @@ body{
     margin: 0.5em;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4em;
+    
 }
 
 
@@ -222,3 +227,18 @@ article h4{
 .card p, .card h3, .card h4{
     margin:1em;
 }
+
+header img {
+    width:31px;
+    height:30px;
+}
+
+header h1{
+    margin:0;
+    position: absolute;
+    top:1%;
+    transform: translate(35px, 5px);
+
+    
+}
+
