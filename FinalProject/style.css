@@ -184,6 +184,7 @@ body{
     .program-card{
         border:solid 1px white;
         box-shadow: 1px 1px 1px 1px;
+        border-style: solid;
     }
 
     .program-card img{
@@ -238,7 +239,8 @@ header h1{
     position: absolute;
     top:1%;
     transform: translate(35px, 5px);
-
-    
 }
 
+header a{
+    text-decoration: none;
+}
