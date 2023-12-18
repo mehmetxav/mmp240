@@ -18,6 +18,7 @@ header{
     
 }
 
+
 #menu id{
     float:right;
 
@@ -152,6 +153,8 @@ body{
             margin-left:1em;
     }
 
+    
+    
     .topNav nav{
         display:block;
     }
@@ -206,7 +209,17 @@ body{
         text-decoration: none;
     }
 
+    h3{
+    font-weight: bold;
+    font-size: 1em;
+    }
 
+    h4{
+        font-weight: bold;
+    }
+.a{
+    text-decoration: underline;
+}
 }
 
 .paragraph{
@@ -274,5 +287,5 @@ a{
 }
 
 .card p{
-    font-size:1.2em;
+    font-size:
 }
