@@ -182,9 +182,8 @@ body{
     }
 
     .program-card{
-        border:solid 1px white;
-        box-shadow: 1px 1px 1px 1px;
-        border-style: solid;
+        border: 2px solid red;
+        border-radius: 5px;
     }
 
     .program-card img{
@@ -201,7 +200,7 @@ body{
 .paragraph{
     background-color: rgba(255,255,255,0.5);
     padding: 1em;
-    border: solid 1px black;
+    border: solid 1px white;
 }
 
 article h4{
@@ -212,8 +211,9 @@ article h4{
 
 .card {
     width:100%;
-    border:solid 1px white;
-    box-shadow:1px 1px 1px 1px;
+    border: 1px black;
+    border-style: solid;
+    
 }
 
 .card img{
@@ -222,6 +222,7 @@ article h4{
 .program{
     display: grid;
     grid-gap:1em;
+    border-style:solid;
 
 }
 
