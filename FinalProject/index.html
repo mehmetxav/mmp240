@@ -11,9 +11,10 @@
 <body>
  <div id="wrapper">
     <header>
+        
         <img src="images/cunylogo.png" alt="logo">
-        <h1><a href="https://mehmetxav.github.io/mmp240/FinalProject/index.html">CUNY Design</a></h1>
-
+        <h1>CUNY Design</h1>
+    
         <div class="topNav">
             <img src="images/menu_FILL0_wght400_GRAD0_opsz24.svg" alt="menu" id="menu" onclick="showMenu(); return false;">
             <nav id="topmenu">
@@ -34,6 +35,14 @@
     <nav class="programNav">
         <h2>Find A Design Program</h2>
         <ul class="flex-container">
+
+            <li class="program-select"><a href="#">Home</a>
+                <ul class="dropdown">
+                    <li><a href="index.html">Home</a></li>
+                </ul><!--Closing The Drop Menu-->
+                </li>
+
+                
             <li class="program-select"><a href="#">Discipline</a>
             <ul class="dropdown">
                 <li><a href="DigitalDesign.html">Digital Design</a></li>
@@ -116,10 +125,8 @@
 
 
 
-
+ <script src="showMenu.js"></script>
     
 </body>
-
-<script src="showMenu.js"></script>
 
 </html>

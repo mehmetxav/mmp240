@@ -111,7 +111,6 @@ h2{
 
 body{
     margin: 0.5em;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4em;
     
 }
@@ -199,11 +198,14 @@ body{
 
     .program-card p, .program-card h3, .program-card h4{
         margin:1em;
+        
+
     }
 
     a{
         text-decoration: none;
     }
+
 
 }
 
@@ -237,6 +239,7 @@ article h4{
 
 .card p, .card h3, .card h4{
     margin:1em;
+
 }
 
 header img {
@@ -253,4 +256,23 @@ header h1{
 
 header a{
     text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card h3 {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.card h4{
+    color:orange;
+    font-weight:bold;
+    font-size: 1.2em;
+}
+
+.card p{
+    font-size:1.2em;
 }
