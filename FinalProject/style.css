@@ -26,7 +26,7 @@ header{
 
 .topNav nav li{
     margin-bottom: 1em;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px;
 }
 
 .banner {
@@ -148,8 +148,8 @@ body{
         margin-right:0;
     }
 
-    .topNav ul, .topNav li,topNav form{
-            display:inline;
+    .topNav ul, .topNav li, .topNav form{
+            display:inline-block;
             margin-left:1em;
     }
 
@@ -201,8 +201,9 @@ body{
 
     .li {
         border-radius: 5px;
-        border: 1px solid rgba(0, 0, 0, 0.8);
+        border: 1px solid black;
         padding:0.2em;
+        
     }
 
     .program-card p, .program-card h3, .program-card h4{
