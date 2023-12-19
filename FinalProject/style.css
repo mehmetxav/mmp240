@@ -26,7 +26,6 @@ header{
 
 .topNav nav li{
     margin-bottom: 1em;
-    border-bottom: solid 1px;
 }
 
 .banner {
@@ -199,12 +198,14 @@ body{
         height: 30%;
     }
 
-    .li {
-        border-radius: 5px;
+    .li:hover {
+        border-radius: 7px;
         border: 1px solid black;
         padding:0.2em;
+        text-decoration: underline;
         
     }
+
 
     .program-card p, .program-card h3, .program-card h4{
         margin:1em;
