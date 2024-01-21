@@ -53,6 +53,11 @@ a{
     background-color: white;
 }
 
+.banner{
+    
+}
+
+
 @media(max-width:768px){
     .hamburger{
         display:block;
