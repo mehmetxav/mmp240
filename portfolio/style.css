@@ -53,6 +53,15 @@ a{
     background-color: white;
 }
 
+.img{
+    float:right;
+    width: 40%;
+}
+
+.position{
+    position: absolute;
+    width: 70%;
+}
 
 
 @media(max-width:768px){
